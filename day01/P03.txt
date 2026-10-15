@@ -2,3 +2,6 @@ git分支学习：git branch 分支名  --创建分支   git branch -v --查看�
 
 
 注意，当你git branch 分支名 创建分支时，是拷贝当前路径的最新版本
+
+
+注意：当你使用git merge合并操作时，要注意指针立场，如果当前指针指向master,则就是将其他分支合并到master上，反之如果指针当前指向分支，合并就是将master合并到分支上	
