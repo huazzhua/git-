@@ -1,1 +1,4 @@
 git分支学习：git branch 分支名  --创建分支   git branch -v --查看分支   git checkout 分支名  --切换分支  git merge 分支名 --合并分支   注意当指针在分支路径上是，对文件进行的修改都会保存在分支上，与master路径无关，若想将修改的结果返回到master路径上必须使用合并路径
+
+
+注意，当你git branch 分支名 创建分支时，是拷贝当前路径的最新版本
